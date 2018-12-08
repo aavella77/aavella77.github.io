@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>colah's blog</title>
-        <link>http://colah.github.io/</link>
+        <title>Alejandro Avella's blog</title>
+        <link>http://aavella77.github.io/</link>
         <description><![CDATA[]]></description>
-        <atom:link href="http://colah.github.io/rss.xml" rel="self"
+        <atom:link href="http://aavella77.github.io/rss.xml" rel="self"
                    type="application/rss+xml" />
         <lastBuildDate>Thurs, 3 Sep 2015 00:00:00 UTC</lastBuildDate>
 
