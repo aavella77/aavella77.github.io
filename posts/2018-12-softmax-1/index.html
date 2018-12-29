@@ -94,6 +94,15 @@
 
 I tried to follow the equations for a neural network.  I don't understand why the predictions (y_hat) do not add 1 for a label (y)<br>
 
+<br>
+Response:
+<br>
+Paul T Mielke - Mentor 
+You are not using softmax. You are just using sigmoid. That's not the same thing. sigmoid is the degenerate case of softmax if there is only one output class, but for n > 1n>1 the formula is different.
+<br>
+This was covered in the first numpy practice exercise in Week 2. Prof Ng will also go into more detail and actually use softmax in the second course, so stay tuned for that.
+<br>
+
   <img src="../../images/question_softmax_1/softmax_1.jpg">
   <br>
   <img src="../../images/question_softmax_1/softmax_2.jpg">
